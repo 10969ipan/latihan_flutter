@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'mahasiswa_form.dart';
+import 'matakuliah_form.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Latihan Flutter',
-      home: MahasiswaForm(),
+      home: MataKuliahForm(),
     );
   }
 }
